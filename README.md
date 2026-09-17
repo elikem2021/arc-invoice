@@ -2,7 +2,7 @@
 
 USDC invoices and lightweight escrow, built for [Arc](https://arc.io), Circle's stablecoin-native L1.
 
-**Live app:** https://arc-invoice.vercel.app  
+**Live app:** https://arc-invoice-app.vercel.app  
 **Contract (Arc mainnet, chain 5042):** see `DEPLOYMENT.md`
 
 ## What it does
