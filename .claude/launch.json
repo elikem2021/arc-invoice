@@ -1,0 +1,1 @@
+{ "version": "0.0.1", "configurations": [ { "name": "web", "runtimeExecutable": "npx", "runtimeArgs": ["vite", "preview", "--port", "4173", "--strictPort"], "port": 4173, "cwd": "web" } ] }

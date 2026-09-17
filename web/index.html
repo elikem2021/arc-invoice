@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArcInvoice — USDC invoices and escrow on Arc</title>
+<meta name="description" content="Create a USDC invoice on Arc, share a link, get paid in seconds. Optional escrow with a payer review window. Fees are paid in USDC too.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b6cff'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial'>$</text></svg>">
+<link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/">Arc<span>Invoice</span></a>
+  <div class="right">
+    <span id="net" class="pill muted">Arc mainnet · 5042</span>
+    <button id="connect" class="btn ghost">Connect wallet</button>
+  </div>
+</header>
+<main id="app"></main>
+<footer class="foot">
+  <span>Contract <a id="contractLink" target="_blank" rel="noopener">view</a> · <a href="https://github.com/elikem2021/arc-invoice" target="_blank" rel="noopener">source</a></span>
+  <span>Amounts are native USDC on Arc. Fees are paid in USDC. Not custodial: escrow is held by the contract, released by the payer or claimed by the payee after the review window.</span>
+</footer>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.env
+out/
+cache/
+node_modules/
+web/node_modules/
+web/dist/
+.vercel/
+broadcast/
